@@ -28,4 +28,6 @@ Cheer! You have created an Android app  Template:)
 4. UI Automator viewer appears
 ![UIAutomatorViewer](https://github.com/priya006/Android_Autmation/blob/master/%20UI_Automator_Viewer.png)
 ![Viewhiererchy](https://github.com/priya006/Android_Automation/blob/master/View_hiererchy.png)
+
 Note: resource_id and text are the most common type of locators
+Tip: Element could also be located from navigate to `res` folder on the left side, open up a `menu` folder and select `bottom_nav_menu.xml`
