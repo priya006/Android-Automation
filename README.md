@@ -27,3 +27,5 @@ Cheer! You have created an Android app  Template:)
 3. Run the command ./uiautomatorviewer  from terminal
 4. UI Automator viewer appears
 ![UIAutomatorViewer](https://github.com/priya006/Android_Autmation/blob/master/%20UI_Automator_Viewer.png)
+
+Note: resource_id and text are the most common type of locators

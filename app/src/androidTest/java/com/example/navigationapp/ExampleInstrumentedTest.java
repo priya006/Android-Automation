@@ -1,10 +1,12 @@
 package com.example.navigationapp;
 
+import android.Manifest;
 import android.content.Context;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
+import androidx.test.rule.GrantPermissionRule;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,6 +31,8 @@ import org.junit.Rule;
 public class ExampleInstrumentedTest {
     @Rule
     public ActivityTestRule<MainActivity> activityActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+//    @Rule
+//    public GrantPermissionRule mRuntimePermissionRule = GrantPermissionRule.grant(Manifest.permission.READ_CONTACTS).grant(Manifest.permission.WRITE_CONTACTS);
     @Test
     public void useAppContext() {
         // Context of the app under test.
