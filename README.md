@@ -6,3 +6,16 @@
 2. Name the project and select a programming language
 
 Cheer! You have created an Android app  Template:)
+
+## How To Record Espresso Test with UI Recorder
+-----------------------------------------------
+1. Android Studio > Run > Record Espresso Test
+2. In the Android emulator open the app to be tested and record all actions and assertions
+![UI_TestRecorder](https://github.com/priya006/Android_Autmation/blob/master/UI_Test_Recorder.png)
+3. Save and a Test Class file generated
+
+## How to Generate Test Reports
+---------------------------------
+1. Run the execute in command line using the command `./gradlew connectedAndroidTest`
+2. Test reports could be found in the location `path_to_your_project/module_name/build/outputs/androidTest-results/connected/`
+![XML_TestReport](https://github.com/priya006/Android_Autmation/blob/master/XML_Test_Report.png)

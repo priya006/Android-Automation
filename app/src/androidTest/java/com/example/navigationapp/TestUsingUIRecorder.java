@@ -108,7 +108,6 @@ public class TestUsingUIRecorder {
 
         pressBack();
 
-        pressBack();
 
         // Added a sleep statement to match the app's execution delay.
         // The recommended way to handle such scenarios is to use Espresso idling resources:
