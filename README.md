@@ -31,3 +31,29 @@ Cheer! You have created an Android app  Template:)
 
 Note: resource_id and text are the most common type of locators
 Tip: Element could also be located from navigate to `res` folder on the left side, open up a `menu` folder and select `bottom_nav_menu.xml`
+
+## How to Run Espresso Test in BrowserStack
+-------------------------------------------
+1. Create a user account in [browserstack](https://www.browserstack.com/users/sign_in)
+2. Copy the `username` and `access key`
+3. Upload your app in browser stack. `app_url` will be received
+```
+curl -u "<UserName>":<AccessKey>" \
+-X POST "https://api-cloud.browserstack.com/app-automate/espresso/v2/app" \
+-F "file=@<pathtoapp-debug.apk>"
+```
+4.Upload test suite to browserstack
+```
+curl -u "<UserName>:<AccessKey>" \
+-X POST "https://api-cloud.browserstack.com/app-automate/espresso/v2/test-suite" \
+-F "file=@<pathtoapp-debug-androidTest.apk>"
+```
+5.Execute the test in browser stack. With the Selected device from browser stack.
+```
+curl -u "<UserName>:<AccessKey>" \
+-X POST "https://api-cloud.browserstack.com/app-automate/espresso/v2/build" \
+-d '{"app": "<app_url>", "testSuite": "<test_url>", "devices": ["Google Pixel 3-9.0"]}' \
+-H "Content-Type: application/json"
+```
+6.Monitor the test results in [Browser Stack App Automate](https://app-automate.browserstack.com/dashboard/v2)
+![BrowserStackDashboard](https://github.com/priya006/Android-Automation/blob/master/BrowserStack_Dashboard.png)
