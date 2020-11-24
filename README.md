@@ -57,3 +57,18 @@ curl -u "<UserName>:<AccessKey>" \
 ```
 6.Monitor the test results in [Browser Stack App Automate](https://app-automate.browserstack.com/dashboard/v2)
 ![BrowserStackDashboard](https://github.com/priya006/Android-Automation/blob/master/BrowserStack_Dashboard.png)
+
+## Run Tests in Parallel using BrowserStack in multiple devices[Compatibility Testing]
+------------------------------------------------------------------------------------
+**Assumptions:** Please follow the above mentioned Step 1 to Step 4
+
+1. Execute the test by firing the following curl command
+
+```
+curl -u "<UserName>:<AccessKey>" \
+-X POST "https://api-cloud.browserstack.com/app-automate/espresso/v2/build" \
+-d '{"devices": ["Google Pixel 3-9.0", "Samsung Galaxy S10e-9.0"], "app": "<app_url>", "testSuite": "<test_url>"}' \
+-H "Content-Type: application/json"
+```
+2. Monitor the results in [Browser Stack App Automate](https://app-automate.browserstack.com/dashboard/v2)
+![BrowserStackDashboard](https://github.com/priya006/Android-Automation/blob/master/CompatibilityTesting.png)
