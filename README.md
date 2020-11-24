@@ -19,3 +19,11 @@ Cheer! You have created an Android app  Template:)
 1. Run the execute in command line using the command `./gradlew connectedAndroidTest`
 2. Test reports could be found in the location `path_to_your_project/module_name/build/outputs/androidTest-results/connected/`
 ![XML_TestReport](https://github.com/priya006/Android_Autmation/blob/master/XML_Test_Report.png)
+
+## How to Find Elements using UI Automator
+-------------------------------------------
+1. cd to $ANDROID_HOME/tools/bin
+2. Open the app to be tested in emulator
+3. Run the command ./uiautomatorviewer  from terminal
+4. UI Automator viewer appears
+![UIAutomatorViewer](https://github.com/priya006/Android_Autmation/blob/master/%20UI_Automator_Viewer.png)
