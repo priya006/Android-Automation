@@ -48,4 +48,15 @@ public class ExampleInstrumentedTest {
 
 
     }
+
+    @Test
+    public void clickButtonDashboard(){
+        onView(withId(R.id.navigation_dashboard)).perform(click()).check(matches(isDisplayed()));
+    }
+
+
+    @Test
+    public void clickButtonNotification(){
+        onView(withId(R.id.navigation_notifications)).perform(click()).check(matches(isDisplayed()));
+    }
     }

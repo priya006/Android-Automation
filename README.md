@@ -1,7 +1,7 @@
 # Android Automation
 
-## How to Create Simple Application in Android Studio
-------------------------------------------------------
+## How to Create Simple Android Application in Android Studio
+-------------------------------------------------------------
 1. In Android Studio IDE click File > New > New Project and select Bottom Navigation Activity
 2. Name the project and select a programming language
 
@@ -27,5 +27,5 @@ Cheer! You have created an Android app  Template:)
 3. Run the command ./uiautomatorviewer  from terminal
 4. UI Automator viewer appears
 ![UIAutomatorViewer](https://github.com/priya006/Android_Autmation/blob/master/%20UI_Automator_Viewer.png)
-
+![Viewhiererchy](https://github.com/priya006/Android_Automation/blob/master/View_hiererchy.png)
 Note: resource_id and text are the most common type of locators
