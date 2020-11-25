@@ -1,5 +1,25 @@
 # Android Automation Using Espresso Framework
 
+##### Table of Contents
+-----------------------
+[How to Create Simple Android Application in Android Studio](https://github.com/priya006/Android-Automation/#how-to-create-simple-android-application-in-android-studio)  
+[How To Record Espresso Test with UI Recorder](https://github.com/priya006/Android-Automation/#how-to-record-espresso-test-with-ui-recorder) 
+[How to Generate Test Reports](https://github.com/priya006/Android-Automation/#how-to-generate-test-reports)
+[How to Find Elements using UI Automator
+](https://github.com/priya006/Android-Automation/#how-to-find-elements-using-ui-automator)
+[How to Run Espresso Test in BrowserStack
+](https://github.com/priya006/Android-Automation/#how-to-run-espresso-test-in-browserstack)
+[Run Tests in Parallel using BrowserStack in multiple devices[Compatibility Testing]
+](https://github.com/priya006/Android-Automation/#run-tests-in-parallel-using-browserstack-in-multiple-devicescompatibility-testing)
+[How to take Screenshot in BrowserStack using SpoonFramework
+](https://github.com/priya006/Android-Automation/#how-to-take-screenshot-in-browserstack-using-spoonframework)
+[Take Screenshot using SpoonFramework
+](https://github.com/priya006/Android-Automation/#take-screenshot-using-spoonframework)
+[How to look into Device logs
+](https://github.com/priya006/Android-Automation/#how-to-look-into-device-logs)
+[Important Places to look into Android Project
+](https://github.com/priya006/Android-Automation/#important-places-to-look-into-android-project)
+
 ## How to Create Simple Android Application in Android Studio
 -------------------------------------------------------------
 1. In Android Studio IDE click File > New > New Project and select Bottom Navigation Activity
