@@ -115,3 +115,11 @@ curl -u "<UserName>:<AccessKey>" \
 ```
 2. Click the Test method > Device logs > Click the hyperlink View Raw Device logs
 ![Device_Logs](https://github.com/priya006/Android-Automation/blob/master/Device_Logs.png)
+
+## Important Places to look into Android Project
+-----------------------------------------------
+   - AndroidManifest.xml
+   - app/build.gradle
+   - app/src/main/res/activity_main.xml
+   - Source code lives in `Android_APP/app/src/main/java`
+   - Espresso Test could be found  `Android_APP/app/src/androidTest/java`
