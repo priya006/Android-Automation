@@ -22,7 +22,7 @@
 
 9. [How to look into Device logs](https://github.com/priya006/Android-Automation/#how-to-look-into-device-logs)
 
-10. [Important Places to look into Android Project](https://github.com/priya006/Android-Automation/#important-places-to-look-into-android-project)
+10. [Important Files to Know in Android Project](https://github.com/priya006/Android-Automation/#important-places-to-look-into-android-project)
 
 
 ## How to Create Simple Android Application in Android Studio
@@ -141,7 +141,7 @@ curl -u "<UserName>:<AccessKey>" \
 2. Click the Test method > Device logs > Click the hyperlink View Raw Device logs
 ![Device_Logs](https://github.com/priya006/Android-Automation/blob/master/Device_Logs.png)
 
-## Important Places to look into Android Project
+## Important Files to Know in Android Project
 -----------------------------------------------
    - AndroidManifest.xml
    - app/build.gradle
