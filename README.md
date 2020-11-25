@@ -85,5 +85,6 @@ curl -u "<UserName>:<AccessKey>" \
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
  ```
 3.Turn on App permission in Pixel API 27 (Emulator).
+
 `Settings > Search with the keyword Permission > Click App Permissions > Select the App under test > Select  Permissions > Toggle Storage ON`
 ![Storage](https://github.com/priya006/Android-Automation/blob/master/Storage_ON_API27_Pixel.png)
