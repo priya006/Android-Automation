@@ -48,9 +48,7 @@ public class ExampleInstrumentedTest {
 
         onView(withId(R.id.navigation_home)).perform(click()).check(matches(isDisplayed()));
 
-        Spoon.screenshot(activityActivityTestRule.getActivity(), "Screeshot123");
-
-
+        Spoon.screenshot(activityActivityTestRule.getActivity(), "Home_Button");
 
     }
 
