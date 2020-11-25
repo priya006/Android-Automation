@@ -2,7 +2,7 @@
 --------------------------------------------
 
 
-##### Table of Contents
+## Table of Contents
 -----------------------
 1.[How to Create Simple Android Application in Android Studio](https://github.com/priya006/Android-Automation/#how-to-create-simple-android-application-in-android-studio)
 
