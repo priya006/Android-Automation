@@ -73,6 +73,17 @@ curl -u "<UserName>:<AccessKey>" \
 2. Monitor the results in [Browser Stack App Automate](https://app-automate.browserstack.com/dashboard/v2)
 ![BrowserStackDashboard](https://github.com/priya006/Android-Automation/blob/master/CompatibilityTesting.png)
 
+## How to take Screenshot in BrowserStack using SpoonFramework
+--------------------------------------------------------------
+1.Add the line `Spoon.screenshot(ActivityName, tagName);` in test
+2.Add `"enableSpoonFramework": true` to the `curl` command
+```
+ curl -u "<UserName>:<AccessKey>" \
+-X POST "https://api-cloud.browserstack.com/app-automate/espresso/v2/build" \
+-d '{"enableSpoonFramework": true, "devices": ["Google Pixel 3-9.0", "Samsung Galaxy S10e-9.0"], "app": "<app_url>", "testSuite": "<test_url>"}' \
+-H "Content-Type: application/json"
+```
+
 ## Take Screenshot using Spoon
 -------------------------------
 1. Add spoon to gradle project. In `/app/build.gradle` add the line

@@ -10,6 +10,7 @@ import androidx.test.rule.GrantPermissionRule;
 
 import com.squareup.spoon.Spoon;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -31,6 +32,12 @@ import org.junit.Rule;
 
 
 public class ExampleInstrumentedTest {
+
+    private MainActivity mainActivity;
+    @Before
+    public void setUp() {
+        mainActivity = activityActivityTestRule.getActivity();
+    }
     @Rule
     public ActivityTestRule<MainActivity> activityActivityTestRule = new ActivityTestRule<>(MainActivity.class);
 //    @Rule
@@ -48,18 +55,20 @@ public class ExampleInstrumentedTest {
 
         onView(withId(R.id.navigation_home)).perform(click()).check(matches(isDisplayed()));
 
-        Spoon.screenshot(activityActivityTestRule.getActivity(), "Home_Button");
+        Spoon.screenshot(mainActivity, "Home_Button");
 
     }
 
     @Test
     public void clickButtonDashboard(){
         onView(withId(R.id.navigation_dashboard)).perform(click()).check(matches(isDisplayed()));
+        Spoon.screenshot(mainActivity, "Dashboard");
     }
 
 
     @Test
     public void clickButtonNotification(){
         onView(withId(R.id.navigation_notifications)).perform(click()).check(matches(isDisplayed()));
+        Spoon.screenshot(mainActivity, "Notification");
     }
     }
