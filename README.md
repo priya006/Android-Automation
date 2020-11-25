@@ -84,7 +84,7 @@ curl -u "<UserName>:<AccessKey>" \
 -H "Content-Type: application/json"
 ```
 
-## Take Screenshot using Spoon
+## Take Screenshot using SpoonFramework
 -------------------------------
 1. Add spoon to gradle project. In `/app/build.gradle` add the line
 `androidTestImplementation 'com.squareup.spoon:spoon-client:1.3.2'`
