@@ -72,3 +72,18 @@ curl -u "<UserName>:<AccessKey>" \
 ```
 2. Monitor the results in [Browser Stack App Automate](https://app-automate.browserstack.com/dashboard/v2)
 ![BrowserStackDashboard](https://github.com/priya006/Android-Automation/blob/master/CompatibilityTesting.png)
+
+## Take Screenshot using Spoon
+-------------------------------
+1. Add spoon to gradle project. In `/app/build.gradle`
+`androidTestImplementation 'com.squareup.spoon:spoon-client:1.3.2'`
+2. Add below permission lines to `AndroidManifest.xml`
+```
+ <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:remove="android:maxSdkVersion" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ ```
+3.Turn on App permission in Pixel API 27 (Emulator).
+`Settings > Search with the keyword Permission > Click App Permissions > Select the App under test > Select  Permissions > Toggle Storage ON`
+![Storage](https://github.com/priya006/Android-Automation/blob/master/Storage_ON_API27_Pixel.png)

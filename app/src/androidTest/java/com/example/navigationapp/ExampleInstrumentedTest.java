@@ -8,6 +8,8 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.rule.GrantPermissionRule;
 
+import com.squareup.spoon.Spoon;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -45,6 +47,9 @@ public class ExampleInstrumentedTest {
     public void clickButtonHome() {
 
         onView(withId(R.id.navigation_home)).perform(click()).check(matches(isDisplayed()));
+
+        Spoon.screenshot(activityActivityTestRule.getActivity(), "Screeshot123");
+
 
 
     }
