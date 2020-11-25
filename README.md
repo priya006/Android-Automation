@@ -1,26 +1,20 @@
 # Android Automation Using Espresso Framework
+--------------------------------------------
+
 
 ##### Table of Contents
 -----------------------
-[How to Create Simple Android Application in Android Studio](https://github.com/priya006/Android-Automation/#how-to-create-simple-android-application-in-android-studio)  
+1.[How to Create Simple Android Application in Android Studio](https://github.com/priya006/Android-Automation/#how-to-create-simple-android-application-in-android-studio)  
+2.[How To Record Espresso Test with UI Recorder](https://github.com/priya006/Android-Automation/#how-to-record-espresso-test-with-ui-recorder) 
+3.[How to Generate Test Reports](https://github.com/priya006/Android-Automation/#how-to-generate-test-reports)
+4.[How to Find Elements using UI Automator](https://github.com/priya006/Android-Automation/#how-to-find-elements-using-ui-automator)
+5.[How to Run Espresso Test in BrowserStack](https://github.com/priya006/Android-Automation/#how-to-run-espresso-test-in-browserstack)
+6.[Run Tests in Parallel using BrowserStack in multiple devices[Compatibility Testing]](https://github.com/priya006/Android-Automation/#run-tests-in-parallel-using-browserstack-in-multiple-devicescompatibility-testing)
+7.[How to take Screenshot in BrowserStack using SpoonFramework](https://github.com/priya006/Android-Automation/#how-to-take-screenshot-in-browserstack-using-spoonframework)
+8.[Take Screenshot using SpoonFramework](https://github.com/priya006/Android-Automation/#take-screenshot-using-spoonframework)
+9.[How to look into Device logs](https://github.com/priya006/Android-Automation/#how-to-look-into-device-logs)
+10.[Important Places to look into Android Project](https://github.com/priya006/Android-Automation/#important-places-to-look-into-android-project)
 
-[How To Record Espresso Test with UI Recorder](https://github.com/priya006/Android-Automation/#how-to-record-espresso-test-with-ui-recorder) 
-
-[How to Generate Test Reports](https://github.com/priya006/Android-Automation/#how-to-generate-test-reports)
-[How to Find Elements using UI Automator
-](https://github.com/priya006/Android-Automation/#how-to-find-elements-using-ui-automator)
-[How to Run Espresso Test in BrowserStack
-](https://github.com/priya006/Android-Automation/#how-to-run-espresso-test-in-browserstack)
-[Run Tests in Parallel using BrowserStack in multiple devices[Compatibility Testing]
-](https://github.com/priya006/Android-Automation/#run-tests-in-parallel-using-browserstack-in-multiple-devicescompatibility-testing)
-[How to take Screenshot in BrowserStack using SpoonFramework
-](https://github.com/priya006/Android-Automation/#how-to-take-screenshot-in-browserstack-using-spoonframework)
-[Take Screenshot using SpoonFramework
-](https://github.com/priya006/Android-Automation/#take-screenshot-using-spoonframework)
-[How to look into Device logs
-](https://github.com/priya006/Android-Automation/#how-to-look-into-device-logs)
-[Important Places to look into Android Project
-](https://github.com/priya006/Android-Automation/#important-places-to-look-into-android-project)
 
 ## How to Create Simple Android Application in Android Studio
 -------------------------------------------------------------
