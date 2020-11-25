@@ -22,7 +22,7 @@
 
 9. [How to look into Device logs](https://github.com/priya006/Android-Automation/#how-to-look-into-device-logs)
 
-10. [Important Files to Know in Android Project](https://github.com/priya006/Android-Automation/#important-places-to-look-into-android-project)
+10. [Important Files to Know in Android Project](https://github.com/priya006/Android-Automation/blob/master/README.md#important-files-to-know-in-android-project)
 
 
 ## How to Create Simple Android Application in Android Studio
