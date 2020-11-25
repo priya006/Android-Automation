@@ -16,7 +16,7 @@
 
 6.[Run Tests in Parallel using BrowserStack in multiple devices[Compatibility Testing]](https://github.com/priya006/Android-Automation/#run-tests-in-parallel-using-browserstack-in-multiple-devicescompatibility-testing)
 
-7. [How to take Screenshot in BrowserStack using SpoonFramework](https://github.com/priya006/Android-Automation/#how-to-take-screenshot-in-browserstack-using-spoonframework)
+7.[How to take Screenshot in BrowserStack using SpoonFramework](https://github.com/priya006/Android-Automation/#how-to-take-screenshot-in-browserstack-using-spoonframework)
 
 8.[Take Screenshot using SpoonFramework](https://github.com/priya006/Android-Automation/#take-screenshot-using-spoonframework)
 
