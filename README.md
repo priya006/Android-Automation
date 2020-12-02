@@ -26,7 +26,7 @@
 
 11. [Important Files to Know in Android Project](https://github.com/priya006/Android-Automation/blob/master/README.md#important-files-to-know-in-android-project)
 
-12. [References](https://developer.android.com/studio/debug/layout-inspector)
+12. [References](https://github.com/priya006/Android-Automation/blob/master/README.md#references)
 
 
 ## How to Create Simple Android Application in Android Studio
