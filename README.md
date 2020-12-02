@@ -12,7 +12,7 @@
 
 4. [How to Find Elements using UI Automator](https://github.com/priya006/Android-Automation/#how-to-find-elements-using-ui-automator)
 
-5. [How to locate elements using Layout Inspector from Android Studio]
+5. [How to locate elements using Layout Inspector from Android Studio](https://github.com/priya006/Android-Automation/blob/master/README.md#how-to-locate-elements-using-layout-inspector-from-android-studio)
 
 6. [How to Run Espresso Test in BrowserStack](https://github.com/priya006/Android-Automation/#how-to-run-espresso-test-in-browserstack)
 
