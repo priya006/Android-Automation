@@ -63,7 +63,7 @@ Tip: Element could also be located from navigate to `res` folder on the left sid
 -------------------------------------------------------------------
 1. Open the Test app from the emulator 
 2. From Android Studio select `Tools > LayoutInspector`
-3. [Layout Inspector](https://github.com/priya006/Android-Automation/blob/master/Layout_Inspector.png)
+3. ![Layout Inspector](https://github.com/priya006/Android-Automation/blob/master/Layout_Inspector.png)
 
 ## How to Run Espresso Test in BrowserStack
 -------------------------------------------
