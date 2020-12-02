@@ -12,17 +12,19 @@
 
 4. [How to Find Elements using UI Automator](https://github.com/priya006/Android-Automation/#how-to-find-elements-using-ui-automator)
 
-5. [How to Run Espresso Test in BrowserStack](https://github.com/priya006/Android-Automation/#how-to-run-espresso-test-in-browserstack)
+5. [How to locate elements using Layout Inspector from Android Studio]
 
-6. [Run Tests in Parallel using BrowserStack in multiple devices[Compatibility Testing]](https://github.com/priya006/Android-Automation/#run-tests-in-parallel-using-browserstack-in-multiple-devicescompatibility-testing)
+6. [How to Run Espresso Test in BrowserStack](https://github.com/priya006/Android-Automation/#how-to-run-espresso-test-in-browserstack)
 
-7. [How to take Screenshot in BrowserStack using SpoonFramework](https://github.com/priya006/Android-Automation/#how-to-take-screenshot-in-browserstack-using-spoonframework)
+7. [Run Tests in Parallel using BrowserStack in multiple devices[Compatibility Testing]](https://github.com/priya006/Android-Automation/#run-tests-in-parallel-using-browserstack-in-multiple-devicescompatibility-testing)
 
-8. [Take Screenshot using SpoonFramework](https://github.com/priya006/Android-Automation/#take-screenshot-using-spoonframework)
+8. [How to take Screenshot in BrowserStack using SpoonFramework](https://github.com/priya006/Android-Automation/#how-to-take-screenshot-in-browserstack-using-spoonframework)
 
-9. [How to look into Device logs](https://github.com/priya006/Android-Automation/#how-to-look-into-device-logs)
+9. [Take Screenshot using SpoonFramework](https://github.com/priya006/Android-Automation/#take-screenshot-using-spoonframework)
 
-10. [Important Files to Know in Android Project](https://github.com/priya006/Android-Automation/blob/master/README.md#important-files-to-know-in-android-project)
+10. [How to look into Device logs](https://github.com/priya006/Android-Automation/#how-to-look-into-device-logs)
+
+11. [Important Files to Know in Android Project](https://github.com/priya006/Android-Automation/blob/master/README.md#important-files-to-know-in-android-project)
 
 
 ## How to Create Simple Android Application in Android Studio
@@ -56,6 +58,12 @@ Cheer! You have created an Android app  Template:)
 
 Note: resource_id and text are the most common type of locators
 Tip: Element could also be located from navigate to `res` folder on the left side, open up a `menu` folder and select `bottom_nav_menu.xml`
+
+## How to locate elements using Layout Inspector from Android Studio
+-------------------------------------------------------------------
+1. Open the Test app from the emulator 
+2. From Android Studio select `Tools > LayoutInspector`
+3. 
 
 ## How to Run Espresso Test in BrowserStack
 -------------------------------------------
