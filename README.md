@@ -195,8 +195,12 @@ onData(
 **- Idling Resources**
 
 1. When the app takes some time to perform an action in the background and the UI becomes idle that's when you decide to take advantage of Espresso Idling resource API. Few examples are `Loading data, Establishing connections with databases`
+
 2. It is important to  registering your app's idling resources. Example: `IdlingRegistry.getInstance().register(mIdlingResource)`
 
+![Idling Resource](https://github.com/priya006/Android-Automation/blob/master/Idling_resource.gif)
+
+3. After the test is done it is important to unregister the idling resource ` IdlingRegistry.getInstance().unregister(mIdlingResource);`
 
    
  
