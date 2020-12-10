@@ -26,7 +26,7 @@
 
 11. [Important Files to Know in Android Project](https://github.com/priya006/Android-Automation/blob/master/README.md#important-files-to-know-in-android-project)
 
-12. [Concepts in Espresso Framework](https://github.com/priya006/Android-Automation/blob/master/README.md#concepts-in-espresso-framework)
+12. [Core Concepts in Espresso Framework](https://github.com/priya006/Android-Automation/blob/master/README.md#concepts-in-espresso-framework)
 
 13. [References](https://github.com/priya006/Android-Automation/blob/master/README.md#references)
 
