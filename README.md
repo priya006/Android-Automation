@@ -179,6 +179,12 @@ curl -u "<UserName>:<AccessKey>" \
 ```
 
 2. RecyclerViewActions are `scrollTo(), scrollToHolder(), scrollToPosition(), actionOnHolderItem(), actionOnItem(), actionOnItemAtPosition()`
+
+**- AdapterViews**
+
+1. The Application code will have code related to adapter `ListAdapter adapter = new LongListAdapter(from, to);` Looking into the application code is the key. Look into how the data is been populated to the view.
+
+   
  
  ## References
  --------------
