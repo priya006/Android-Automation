@@ -164,7 +164,18 @@ curl -u "<UserName>:<AccessKey>" \
    
 ## Concepts in Espresso Framework
 ----------------------------------
-   
+
+** Recycleview ** 
+
+If the data in the view is a list view and also the if the layout inspector shows that the highlighted list view is recycle view
+ ![Recycleview](https://github.com/priya006/Android-Automation/blob/master/Recycle_View.png)  
+
+```
+// First, scroll to the position that needs to be matched and click on it.
+    onView(ViewMatchers.withId(R.id.recyclerView))
+            .perform(RecyclerViewActions.actionOnItemAtPosition(ITEM_BELOW_THE_FOLD,
+            click()));
+```
  
  ## References
  --------------
