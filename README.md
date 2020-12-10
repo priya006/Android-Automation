@@ -192,6 +192,12 @@ onData(
     hasEntry(equalTo("Key"), is("value")))
 );
 ```
+**- Idling Resources**
+
+1. When the app takes some time to perform an action in the background and the UI becomes idle that's when you decide to take advantage of Espresso Idling resource API. Few examples are `Loading data, Establishing connections with databases`
+2. It is important to  registering your app's idling resources. Example: `IdlingRegistry.getInstance().register(mIdlingResource)`
+
+
    
  
  ## References
