@@ -184,6 +184,14 @@ curl -u "<UserName>:<AccessKey>" \
 
 1. The Application code will have code related to adapter `ListAdapter adapter = new LongListAdapter(from, to);` Looking into the application code is the key. Look into how the data is been populated to the view.
 
+2. Perform action on the data in the list view
+
+```
+onData(
+    is(instanceOf(Map.class)), 
+    hasEntry(equalTo("Key"), is("value")))
+);
+```
    
  
  ## References
