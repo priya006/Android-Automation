@@ -174,7 +174,7 @@ curl -u "<UserName>:<AccessKey>" \
 ```
 // First, scroll to the position that needs to be matched and click on it.
     onView(ViewMatchers.withId(R.id.recyclerView))
-            .perform(RecyclerViewActions.actionOnItemAtPosition(ITEM_BELOW_THE_FOLD,
+            .perform(RecyclerViewActions.actionOnItemAtPosition(30,
             click()));
 ```
 
