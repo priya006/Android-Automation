@@ -202,8 +202,35 @@ onData(
 
 3. After the test is done it is important to unregister the idling resource ` IdlingRegistry.getInstance().unregister(mIdlingResource);`
 
-   
- 
+**- Custom Matcher**
+
+1. If there is no matcher in the class `ViewMatchers` for your usecase then we should think of writting a custom matcher. It is simple to understand the class          `BoundedMatcher` and override the matchesSafely and describeTo methods.
+
+2. `TextViewColorMatcher` verifies that a TextView has an specific color
+
+
+```
+public static Matcher<View> textViewTextColorMatcher(final int matcherColor) {
+    return new BoundedMatcher<View, TextView>(TextView.class) {
+        @Override
+        public void describeTo(Description description) {
+            description.appendText("with text color: " + matcherColor);
+        }
+        @Override
+        protected boolean matchesSafely(TextView textView) {
+            return matcherColor == textView.getCurrentTextColor();
+        }
+    };
+}
+
+//how to use it
+onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher(TEXT_BTN_COLOR_DISABLED)));
+```
+
+
+
  ## References
  --------------
  [Layout Inspector Guide](https://developer.android.com/studio/debug/layout-inspector)
+ 
+ [custom Espresso Matchers](https://medium.com/mindorks/some-useful-custom-espresso-matchers-in-android-33f6b9ca2240)
