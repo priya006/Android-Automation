@@ -204,7 +204,7 @@ onData(
 
 **- Custom Matcher**
 
-1. If there is no matcher in the class `ViewMatchers` for your usecase then we should think of writting a custom matcher. It is simple to understand the class          `BoundedMatcher` and override the matchesSafely and describeTo methods.
+1. If there is no matcher in the class `ViewMatchers` for your usecase then we should think of writting a custom matcher. It is simple to understand the class          `BoundedMatcher` and override the `matchesSafely` and `describeTo` methods.
 
 2. `TextViewColorMatcher` verifies that a TextView has an specific color
 
