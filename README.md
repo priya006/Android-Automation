@@ -229,8 +229,20 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
 
 **- Espresso-Intents**
 
-1. If the application under test has a functionality built in to make a call. Making a call functionality is done by another app. So the idea is we can stub the  making call action using Espresso-Intents
+1. If the application under test has a functionality built in to make a call. Making a call functionality is done by another app. So the idea is we can stub the  making call action (response) using Espresso-Intents
 
+2. It is important to understand two words `intent` and `intending`. Intent means purpose. If the application under test has to perform an action of making a call. Then Espresso intent comes in handy.
+```
+   intended(allOf(
+                hasAction(Intent.ACTION_CALL),
+                hasData(INTENT_DATA_PHONE_NUMBER)));
+```
+
+3. Intending means mocking an external activity. The application under test makes a call. But actually making the call action is been stubbed and responds with `OK`  result always. The focus here is to test our app. Below intending code is added in `@Before` so the setup is run before every test run
+
+```
+  intending(not(isInternal())).respondWith(new ActivityResult(Activity.RESULT_OK, null));
+```
 
  ## References
  --------------
