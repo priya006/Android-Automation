@@ -227,6 +227,9 @@ public static Matcher<View> textViewTextColorMatcher(final int matcherColor) {
 onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher(TEXT_BTN_COLOR_DISABLED)));
 ```
 
+**- Espresso-Intents**
+
+1. If the application under test has a functionality built in to make a call. Making a call functionality is done by another app. So the idea is we can stub the  making call action using Espresso-Intents
 
 
  ## References
