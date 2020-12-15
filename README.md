@@ -251,6 +251,9 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  
  **- Lighthouse in Chrome Dev Tool**
  
+ 1. Open Chrome Dev tool > Select Lighthouse > Click Generate Report
+ 
+ 
  **- Talk Back in Android Phone**
  
  **- Espresso Accessibility Check**
