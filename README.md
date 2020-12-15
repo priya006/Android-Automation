@@ -278,6 +278,11 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
 
  **--> Google’s Accessibility Scanner <--**
  
+ 1. Install Accessibility Scanner app from playstore in the real device that is been tested.
+ 2. Log in to the Accessibility Scanner app and open the app under test. Click on the Checkmark icon and take a snapshot. So that the accessibility test results       are prepared by the app
+ 
+
+ 
  **--> Deque’s Accessibility Engine <--**
  
  **Important Tip:**
