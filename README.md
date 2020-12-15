@@ -280,16 +280,17 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  
  1. Install Accessibility Scanner app from playstore in the real device that is been tested.
  2. Log in to the Accessibility Scanner app and open the app under test. Click on the Checkmark icon and take a snapshot. So that the accessibility test results       are prepared by the app
- 
+ ![Accessibility_Scanner](https://github.com/priya006/Android-Automation/blob/master/Accessibility_Scanner.jpg)
 
- 
- **--> Deque’s Accessibility Engine <--**
  
  **Important Tip:**
- It is important to have a meaningful String in the `content Description` 
+ 
+1.  It is important to have a meaningful String in the `content Description` 
  ![Content_Description](https://github.com/priya006/Android-Automation/blob/master/Content_Description.png)
  
-
+2. **Deque’s Accessibility Engine** is a tool that suggests accessibility improvements for Android apps
+ 
+ 
  ## References
  --------------
  [Layout Inspector Guide](https://developer.android.com/studio/debug/layout-inspector)
