@@ -278,3 +278,5 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  [custom Espresso Matchers](https://medium.com/mindorks/some-useful-custom-espresso-matchers-in-android-33f6b9ca2240)
  
  [Accessibility Testing](https://medium.com/mesmerhq/3-accessibility-testing-tools-for-android-15506d67206e)
+ 
+ [Android Accessibility Automation with Espresso](https://tech.ebayinc.com/engineering/android-accessibility-automation-with-espresso/)
