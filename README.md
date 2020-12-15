@@ -262,6 +262,15 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  
  **- Espresso Accessibility Check**
  
+ **Pre-requisite:**
+ Add following dependecies in app/build.gradle file and sync
+ ```
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha03'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.3.0-alpha03'
+    androidTestImplementation 'androidx.test.espresso:espresso-accessibility:3.3.0-alpha03'
+```
+ 
+ 
  1. To enable Espresso accessibility checks. Include the line `AccessibilityChecks.enable().setRunChecksFromRootView(true);`
  2. Accessibility test findings can be suppressed by adding `setSuppressingResultMatcher(Matcher)`
  Example: **AccessibilityChecks.enable().setRunChecksFromRootView(true).setSuppressingResultMatcher(accessibilityCheckResultMatcher)**
