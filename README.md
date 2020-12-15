@@ -280,6 +280,7 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  
  1. Install Accessibility Scanner app from playstore in the real device that is been tested.
  2. Log in to the Accessibility Scanner app and open the app under test. Click on the Checkmark icon and take a snapshot. So that the accessibility test results       are prepared by the app
+ 3. To turn off the Accessibility Scanner  go to `settings > and turn off Accessibility Scanner`
  ![Accessibility_Scanner](https://github.com/priya006/Android-Automation/blob/master/Accessibility_Scanner.jpg)
 
  
