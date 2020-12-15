@@ -256,7 +256,7 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  
  **--> Talk Back in Android Phone <--**
  
- 1. Open your device's Settings app > Navigate to Accessibility and select TalkBack > press On/Off to turn on TalkBack
+ 1. Open your device's `Settings app > Navigate to Accessibility and select TalkBack > press On/Off` to turn on TalkBack
 
  ![Talk_Back](https://github.com/priya006/Android-Automation/blob/master/Talk_Back_Android.gif)
  
