@@ -249,6 +249,16 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  ## Accessibility testing
  ------------------------
  
+ **- Lighthouse in Chrome Dev Tool**
+ 
+ **- Talk Back in Android Phone**
+ 
+ **- Espresso Accessibility Check**
+ 
+ **- Google’s Accessibility Scanner**
+ 
+ **- Deque’s Accessibility Engine**
+ 
  
 
  ## References
