@@ -249,18 +249,18 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  ## Accessibility testing
  ------------------------
  
- **- Lighthouse in Chrome Dev Tool**
+ **--> Lighthouse in Chrome Dev Tool <--** 
  
  1. Open Chrome Dev tool > Select Lighthouse > Click Generate Report
  ![Accessibility_Testing](https://github.com/priya006/Android-Automation/blob/master/Accessibility.gif)
  
- **- Talk Back in Android Phone**
+ **--> Talk Back in Android Phone <--**
  
  1. Open your device's Settings app > Navigate to Accessibility and select TalkBack > press On/Off to turn on TalkBack
 
  ![Talk_Back](https://github.com/priya006/Android-Automation/blob/master/Talk_Back_Android.gif)
  
- **- Espresso Accessibility Check**
+ **--> Espresso Accessibility Check <--**
  
  **Pre-requisite:**
  Add following dependecies in app/build.gradle file and sync
@@ -276,9 +276,9 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  Example: **AccessibilityChecks.enable().setRunChecksFromRootView(true).setSuppressingResultMatcher(accessibilityCheckResultMatcher)**
  			
 
- **- Google’s Accessibility Scanner**
+ **--> Google’s Accessibility Scanner <--**
  
- **- Deque’s Accessibility Engine**
+ **--> Deque’s Accessibility Engine <--**
  
  **Important Tip:**
  It is important to have a meaningful String in the `content Description` 
