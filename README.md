@@ -256,6 +256,9 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  
  **- Talk Back in Android Phone**
  
+ 1. Open your device's Settings app > Navigate to Accessibility and select TalkBack > press On/Off to turn on TalkBack
+
+ 
  **- Espresso Accessibility Check**
  
  **- Google’s Accessibility Scanner**
