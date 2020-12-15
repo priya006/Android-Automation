@@ -262,6 +262,11 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  
  **- Espresso Accessibility Check**
  
+ 1. To enable Espresso accessibility checks. Include the line `AccessibilityChecks.enable().setRunChecksFromRootView(true);`
+ 2. Accessibility test findings can be suppressed by adding `setSuppressingResultMatcher(Matcher)`
+ Example: **AccessibilityChecks.enable().setRunChecksFromRootView(true).setSuppressingResultMatcher(accessibilityCheckResultMatcher)**
+ 			
+
  **- Google’s Accessibility Scanner**
  
  **- Deque’s Accessibility Engine**
