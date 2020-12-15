@@ -266,6 +266,9 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
  
  **- Deque’s Accessibility Engine**
  
+ **Important Tip:**
+ It is important to have a meaningful String in the `content Description` 
+ ![Content_Description](https://github.com/priya006/Android-Automation/blob/master/Content_Description.png)
  
 
  ## References
