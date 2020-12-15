@@ -246,6 +246,11 @@ onView(withId(R.id.search_action_button)).check(matches(textViewTextColorMatcher
   intending(not(isInternal())).respondWith(new ActivityResult(Activity.RESULT_OK, null));
 ```
 
+ ## Accessibility testing
+ ------------------------
+ 
+ 
+
  ## References
  --------------
  [Layout Inspector Guide](https://developer.android.com/studio/debug/layout-inspector)
